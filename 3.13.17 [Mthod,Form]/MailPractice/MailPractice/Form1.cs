@@ -41,7 +41,8 @@ namespace MailPractice
 
         private void addButton_Click(object sender, EventArgs e)
         {
-            lastNumber = Convert.ToInt32(numberListBox.Text);
+            lastNumber = Convert.ToInt32(numberTextBox.Text);
+            numberTextBox.Text = String.Empty;
         }
 
         private void showAllNumberButton_Click(object sender, EventArgs e)
